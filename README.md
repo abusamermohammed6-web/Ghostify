@@ -1,61 +1,93 @@
-👻 Ghostify
-🌍 Simulate · Explore · Test
-A futuristic GPS location simulation & developer QA app for Android.
-![Open Source](https://img.shields.io/badge/Open%20Source-MIT-39ff78?style=for-the-badge&logo=github&logoColor=white)
-![Android](https://img.shields.io/badge/Platform-Android-39ff78?style=for-the-badge&logo=android&logoColor=white)
-![UI](https://img.shields.io/badge/UI-Neon%20Cyberpunk-39ff78?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-39ff78?style=for-the-badge)
+<div align="center">
+
+# 👻 Ghostify
+
+### 🌍 Simulate · Explore · Test
+
+**A futuristic GPS location simulation & developer QA app for Android.**
+
+[![Open Source](https://img.shields.io/badge/Open%20Source-MIT-39ff78?style=for-the-badge&logo=github&logoColor=white)](LICENSE)
+[![Android](https://img.shields.io/badge/Platform-Android-39ff78?style=for-the-badge&logo=android&logoColor=white)](#-features)
+[![UI](https://img.shields.io/badge/UI-Neon%20Cyberpunk-39ff78?style=for-the-badge)](#-screenshots--ui-preview)
+[![Status](https://img.shields.io/badge/Status-Active-39ff78?style=for-the-badge)](#-project-status)
+
 </div>
+
 ![Ghostify Header](assets/ghostify-header.png)
+
 > **Ghostify** is built for developers, QA testers, demo environments and anyone experimenting with location-based app experiences.
+
 ---
-✨ Why Ghostify?
+
+## ✨ Why Ghostify?
+
 Location-based apps can be difficult to test when you need to reproduce a specific place, coordinate or movement pattern.
+
 Ghostify provides a clean, futuristic interface for selecting and simulating virtual locations in a controlled development and testing workflow.
-⚡ Highlights
-📍 Select a virtual location
-🗺️ Explore locations on a map
-🔎 Search cities, countries and addresses
-🌐 Display latitude & longitude
-⭐ Save frequently used places
-🕘 Keep a location history
-🚶 Simulate walking
-🚲 Simulate cycling
-🚗 Simulate driving
-🛣️ Prepare custom route simulations
-⚙️ Configure the experience from Settings
-🌑 Dark UI with neon-green cyber aesthetic
-🧪 Designed around development & QA workflows
+
+### ⚡ Highlights
+
+- 📍 Select a virtual location
+- 🗺️ Explore locations on a map
+- 🔎 Search cities, countries and addresses
+- 🌐 Display latitude & longitude
+- ⭐ Save frequently used places
+- 🕘 Keep a location history
+- 🚶 Simulate walking
+- 🚲 Simulate cycling
+- 🚗 Simulate driving
+- 🛣️ Prepare custom route simulations
+- ⚙️ Configure the experience from Settings
+- 🌑 Dark UI with neon-green cyber aesthetic
+- 🧪 Designed around development & QA workflows
+
 ---
-📸 Screenshots & UI Preview
-👻 Main concept
+
+## 📸 Screenshots & UI Preview
+
+### 👻 Main concept
+
 ![Ghostify UI Preview](assets/ghostify-header.png)
-🖼️ App icon
+
+### 🖼️ App icon
+
 <p align="center">
   <img src="assets/ghostify-icon.png" alt="Ghostify icon" width="280">
 </p>
+
 > The large visual above is a project/UI showcase. The exact screens and available functionality can differ depending on the Android build used to package the project.
+
 ---
-🚀 Features
-Feature	Description
-🗺️ Map	Location-focused interface for selecting a virtual point
-📍 Virtual Location	Choose a city, country, address or coordinates
-🔎 Search	Quickly find a place to use in testing
-⭐ Saved Places	Keep frequently used test locations available
-🕘 History	Review previously selected locations
-🚶 Movement	Simulate stationary, walking, cycling or driving modes
-🛣️ Routes	Prepare custom movement paths for testing
-🌐 Coordinates	View latitude and longitude for selected locations
-🎨 Neon UI	Dark glassmorphism-inspired interface with neon accents
-📱 Mobile First	Designed for Android phone screens
+
+## 🚀 Features
+
+| Feature | Description |
+|---|---|
+| 🗺️ Map | Location-focused interface for selecting a virtual point |
+| 📍 Virtual Location | Choose a city, country, address or coordinates |
+| 🔎 Search | Quickly find a place to use in testing |
+| ⭐ Saved Places | Keep frequently used test locations available |
+| 🕘 History | Review previously selected locations |
+| 🚶 Movement | Simulate stationary, walking, cycling or driving modes |
+| 🛣️ Routes | Prepare custom movement paths for testing |
+| 🌐 Coordinates | View latitude and longitude for selected locations |
+| 🎨 Neon UI | Dark glassmorphism-inspired interface with neon accents |
+| 📱 Mobile First | Designed for Android phone screens |
+
 ---
-🌍 Languages
+
+## 🌍 Languages
+
 Ghostify's project documentation is available in:
-🇬🇧 English
-🇩🇪 Deutsch
-🇯🇵 日本語
+
+- 🇬🇧 **English**
+- 🇩🇪 **Deutsch**
+- 🇯🇵 **日本語**
+
 ---
-🛠️ Project Structure
+
+## 🛠️ Project Structure
+
 ```text
 Ghostify/
 ├── assets/
@@ -68,90 +100,142 @@ Ghostify/
 ├── README.md
 └── .gitignore
 ```
+
 ---
-💻 Getting Started
-1. Clone the repository
+
+## 💻 Getting Started
+
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/Ghostify.git
 cd Ghostify
 ```
-2. Open the project
+
+### 2. Open the project
+
 For the included web UI, simply open:
+
 ```text
 index.html
 ```
+
 You can also serve the folder locally with any static HTTP server.
-3. Android packaging
+
+### 3. Android packaging
+
 The included project can be used as the UI layer for an Android/WebView build or adapted to a native Android implementation.
+
 > 📱 The APK you publish in GitHub Releases should be treated as a compiled build artifact. If it was generated by an external app builder, its internal source may not be identical to this repository.
+
 ---
-🧪 Development & QA
+
+## 🧪 Development & QA
+
 Ghostify is intended for legitimate development and testing workflows, including:
-🧑‍💻 Developing location-aware applications
-🧪 QA and regression testing
-🗺️ Testing different geographic scenarios
-🎬 Product demos and prototypes
-🚦 Testing movement-dependent UI flows
-📱 Reproducing location-dependent app states
-Ghostify is not designed to bypass security systems or to deceive specific third-party services.
+
+- 🧑‍💻 Developing location-aware applications
+- 🧪 QA and regression testing
+- 🗺️ Testing different geographic scenarios
+- 🎬 Product demos and prototypes
+- 🚦 Testing movement-dependent UI flows
+- 📱 Reproducing location-dependent app states
+
+Ghostify is **not designed to bypass security systems or to deceive specific third-party services**.
+
 ---
-📦 Releases
+
+## 📦 Releases
+
 You can publish compiled Android APKs through GitHub Releases:
+
 ```text
 GitHub → Releases → Create a new release → Upload APK
 ```
+
 A recommended naming scheme is:
+
 ```text
 Ghostify-v1.0.0.apk
 Ghostify-v1.1.0.apk
 Ghostify-v2.0.0.apk
 ```
+
 ---
-🤝 Contributing
+
+## 🤝 Contributing
+
 Contributions are welcome! 👻💚
-You can help with:
-🐛 Bug reports
-💡 Feature ideas
-🎨 UI/UX improvements
-🗺️ Map and location functionality
-🚀 Performance improvements
-📝 Documentation
-🌍 Translations
-Pull request flow
+
+### You can help with:
+
+- 🐛 Bug reports
+- 💡 Feature ideas
+- 🎨 UI/UX improvements
+- 🗺️ Map and location functionality
+- 🚀 Performance improvements
+- 📝 Documentation
+- 🌍 Translations
+
+### Pull request flow
+
 ```text
 Fork → Create Branch → Make Changes → Test → Pull Request
 ```
+
 Please keep changes focused and include a short explanation of what was changed.
+
 ---
-🗺️ Roadmap
-[x] 👻 Ghostify branding
-[x] 🌑 Neon dark UI
-[x] 📍 Virtual location interface
-[x] ⭐ Saved places UI
-[x] 🕘 History UI
-[x] 🚶 Movement simulation UI
-[ ] 🗺️ Full native Android map integration
-[ ] 📍 Native Android mock-location integration for developer testing
-[ ] 🛣️ Advanced route editor
-[ ] 📊 Simulation analytics
-[ ] 🌍 More localization
-[ ] 🧪 Automated QA scenarios
+
+## 🗺️ Roadmap
+
+- [x] 👻 Ghostify branding
+- [x] 🌑 Neon dark UI
+- [x] 📍 Virtual location interface
+- [x] ⭐ Saved places UI
+- [x] 🕘 History UI
+- [x] 🚶 Movement simulation UI
+- [ ] 🗺️ Full native Android map integration
+- [ ] 📍 Native Android mock-location integration for developer testing
+- [ ] 🛣️ Advanced route editor
+- [ ] 📊 Simulation analytics
+- [ ] 🌍 More localization
+- [ ] 🧪 Automated QA scenarios
+
 ---
-📄 License
-Ghostify is released under the MIT License.
+
+## 📄 License
+
+Ghostify is released under the **MIT License**.
+
 That means you can use, modify, study and redistribute the project according to the terms of the license.
-See `LICENSE` for the full text.
+
+See [`LICENSE`](LICENSE) for the full text.
+
 ---
-🇬🇧 English
+
+## 🇬🇧 English
+
 Ghostify is a futuristic GPS location simulation and developer QA project for Android. It helps developers and testers reproduce different location scenarios through a clean neon interface.
-🇩🇪 Deutsch
+
+## 🇩🇪 Deutsch
+
 Ghostify ist ein futuristisches GPS-Simulations- und Developer-QA-Projekt für Android. Es hilft Entwicklern und Testern dabei, verschiedene Standort-Szenarien über eine moderne Neon-Oberfläche zu reproduzieren.
-🇯🇵 日本語
+
+## 🇯🇵 日本語
+
 Ghostifyは、Android向けの未来的なGPS位置情報シミュレーションおよび開発者向けQAプロジェクトです。ネオンスタイルのUIを使って、さまざまな位置情報シナリオをテストできます。
+
 ---
+
 <div align="center">
-👻 Ghostify
-Simulate. Explore. Test.
+
+### 👻 Ghostify
+
+**Simulate. Explore. Test.**
+
 Made with 💚 for developers, testers and location-based app enthusiasts.
+
 ⭐ If you like the project, consider giving it a star!
+
 </div>
